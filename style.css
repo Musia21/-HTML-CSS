@@ -1,0 +1,141 @@
+.header {
+    height: 80px;
+    width: auto;
+    padding: 30px 100px 30px 100px;
+}
+.header__menu-list{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 700px;
+    
+}
+
+.menu__list{
+    margin: 30px;
+    list-style: none;
+}
+
+.menu__list_menu_link{
+    color: #590a43;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.menu__list_menu_link:hover {
+    color:white;
+}
+
+.header__menu {
+    display: flex;
+}
+.header__logo {
+    margin: 20px 0 0 0;
+}
+
+body {
+    background:            linear-gradient(to left top, rgba(20, 23, 179, 0.808), rgb(230, 225, 215));
+    background-attachment: fixed; /*edit*/
+}
+.main {
+    display: flex;
+    padding: 30px 150px 0px 100px;
+    min-height: calc(70vh - 50px);
+}
+.main__informatioun{
+    padding: 70px 70px 70px 70px;
+}
+.main__information_citata{
+    display: flex;
+    justify-content: end;
+    color:darkred;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+.main__informatioun-text{
+    padding: 100px;
+    color: #6b0d0d;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+}
+.footer__item_info {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    align-items: flex-end;
+}
+.footer__item_icon {
+    margin-right: 30px;
+    list-style: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.main__photo {
+    border: 2px solid #590a43;
+    width: 400px;
+    height: 500px;
+}
+.main__about_me{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    color: azure;
+    
+}
+.main__contacts{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 50px;
+    color: #6b0d0d;
+    display: flex;
+    justify-content: center;
+}
+.main__contacts_me {
+    padding: 30px 150px 0px 100px;
+    min-height: calc(80vh - 60px);
+    display: flex;
+}
+.contacts_item {
+    display: block;
+    padding: 30px 100px 30px 100px;
+    color: antiquewhite;
+}
+
+.contacts_item_info {
+    padding: 20px;
+    color: antiquewhite;
+}
+.contacts_item_info:hover {
+    color: white;
+}
+.contacts_item:hover {
+    color: white;
+}
+.main__cart{
+    color:#590a43;
+}
+.main__about_city {
+    display: flex;
+    border: 2px solid #590a43;
+}
+
+.main__about_hobby{
+    display: flex;
+    border: 2px solid #590a43;
+}
+.main__about_cat{
+    display: flex;
+    border: 2px solid #590a43;
+}
+.main__about_me{
+    padding: 30px 100px 30px 100px;
+}
+.city__text,
+.hobby__text,
+.cat__text {
+    color: #6b0d0d;
+    padding: 30px 100px 30px 100px;
+}
