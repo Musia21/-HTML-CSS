@@ -31,18 +31,23 @@
     margin: 20px 0 0 0;
 }
 
+
 body {
     background:            linear-gradient(to left top, rgba(20, 23, 179, 0.808), rgb(230, 225, 215));
     background-attachment: fixed; /*edit*/
+    width: max-content;
 }
 .main {
     display: flex;
     padding: 30px 150px 0px 100px;
     min-height: calc(70vh - 50px);
+    width: 1400px;
 }
 .main__informatioun{
     padding: 70px 70px 70px 70px;
 }
+
+
 .main__information_citata{
     display: flex;
     justify-content: end;
@@ -74,15 +79,15 @@ body {
 	padding: 0;
 }
 .main__photo {
-    border: 2px solid #590a43;
     width: 400px;
     height: 500px;
 }
-.main__about_me{
+.main__about_me {
     font-family: 'Lato', sans-serif;
     font-family: 'Noto Sans', sans-serif;
     font-size: 30px;
     color: azure;
+    width: 1500px;
     
 }
 .main__contacts{
@@ -119,17 +124,12 @@ body {
 }
 .main__about_city {
     display: flex;
-    border: 2px solid #590a43;
 }
 
-.main__about_hobby{
-    display: flex;
-    border: 2px solid #590a43;
+.city__photo {
+    padding: 15px;
 }
-.main__about_cat{
-    display: flex;
-    border: 2px solid #590a43;
-}
+
 .main__about_me{
     padding: 30px 100px 30px 100px;
 }
